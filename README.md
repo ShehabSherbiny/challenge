@@ -80,3 +80,14 @@ Given the existing solution, **refactor and tidy** the code to what you believe 
        "cod": 200 }
 
 
+## My progress
+- First i reviewed the structure of the project, and the contents of each file
+- I then researched React since i had never worked with it before
+- I installed the dev tools on my browser, and made some requests.
+- Due to the use of `onChange()` in **App.tsx** every components gets re-rendered every time you type/delete in the input box. This is not an issue in small projects, but is not very scalable.
+- I attempted to fix this by using an uncontrolled component, but i was unsuccesful. I have commented the code in **App.tsx**
+- I have refactored the structure of the project, to make it more scalable. I have created seperate folders for components and views. If the project was bigger this structure would make it easier to navigate.
+- I created some basic responsive styling
+- I attempted to implement a theme switcher, but the implementation is unfinished due to some difficulities i had with the html structure. 
+
+In total i likely spent 3-4 hours on this. Most of the time went into research and trying to stop the re-rendering issue i explained earlier. I hope that you will still consider me for your position.

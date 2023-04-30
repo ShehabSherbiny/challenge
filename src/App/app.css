@@ -24,7 +24,7 @@ body {
     place-items: center;
     color: var( --light ); }
 
-div {
+ #form{
     border: 2px solid var( --ruby );
     border-radius: 1rem;
     display: grid;
@@ -60,6 +60,30 @@ button {
         border-color .15s ease-in-out,
         color .15s ease-in-out; }
 
+#themeSwitcher{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 15px;
+}
+.light-theme {
+
+  background-color: white;
+  color: black;
+  
+ 
+
+}
+
+.dark-theme {
+  background-color: black;
+  color: white;
+  
+  
+ 
+}
+
+
 button:hover,
 button:focus {
     background-color: var( --light );
@@ -76,3 +100,18 @@ img {
     justify-self: center;
     margin: -3rem;
     height: 10rem; }
+
+    @media only screen and (max-width: 700px) {
+        div {
+          /* background-color: lightblue; */
+          grid-template: repeat( 3, min-content ) / repeat( 2, 15rem );
+          grid-template-areas: 
+        "input submit"
+        "city temp"
+        "icon icon";
+
+    gap: 2rem; 
+    text-align: center; 
+    padding: 5rem;
+        }
+      }
