@@ -102,7 +102,7 @@ img {
     height: 10rem; }
 
     @media only screen and (max-width: 700px) {
-        div {
+        #form {
           /* background-color: lightblue; */
           grid-template: repeat( 3, min-content ) / repeat( 2, 15rem );
           grid-template-areas: 
